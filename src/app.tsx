@@ -14,7 +14,8 @@ export default function App() {
     async: true,
   });
 
-  //NOTE Below works, if createScriptLoader is commented:
+  //NOTE Below works, if createScriptLoader is commented out:
+  //Look at <script> tag in elements tab, its missing async and data-website-id on createScriptLoader version
 
   // if (!isServer) {
   //   const script = document.createElement("script");
